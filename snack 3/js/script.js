@@ -9,9 +9,14 @@ console.log(lista1, lista2);
 
 
 while (lista1.length !== lista2.length) {
-    
+
+    if (lista1.length > lista2.length)
     lista2.push("elemento");
+    else
+    lista1.push("elemento");
+    
 }
+
 console.log(lista1, lista2);
 
 
